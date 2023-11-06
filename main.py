@@ -14,4 +14,4 @@ st.button("Reset", type="primary")
 if st.button('시 작성 요청하기'):
     with st.spinner('Wait for it...'):
         result = chat_model.predict(content+"에 대한 시를 써줘")
-        st.write('result')
+        st.write(result)
