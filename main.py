@@ -1,8 +1,3 @@
-# from langchain.llms import OpenAI 
-# llm=OpenAI() #이어 작성
-# result = llm.predict('내가 좋아하는 음식은')
-# print(result)
-
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 import time
