@@ -1,8 +1,8 @@
-from dotenv import load_dotenv
-load_dotenv()
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 import time
+from dotenv import load_dotenv
+load_dotenv()
 
 chat_model=ChatOpenAI() #대화주고받기
 
