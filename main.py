@@ -1,5 +1,5 @@
-from langchain.chat_models import ChatOpenAI
 import streamlit as st
+from langchain.chat_models import ChatOpenAI
 import time
 from dotenv import load_dotenv
 load_dotenv()
