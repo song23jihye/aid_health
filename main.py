@@ -8,7 +8,7 @@ chat_model=ChatOpenAI() #대화주고받기
 
 st.title('클리블랜드 심장질환 진단')
 
-content = st.text_input(""진단사항에 대해 말씀해주세요."")
+content = st.text_input("진단사항에 대해 말씀해주세요.")
 
 st.button("Reset", type="primary")
 if st.button('요청하기'):
