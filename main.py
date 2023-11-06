@@ -1,8 +1,10 @@
+from dotenv import load_dotenv
+load_dotenv()
 from langchain.chat_models import ChatOpenAI
 import streamlit as st
 import time
 
-chat_model=ChatOpenAI()
+chat_model=ChatOpenAI() #대화주고받기
 
 st.title('클리블랜드 심장질환 진단')
 
