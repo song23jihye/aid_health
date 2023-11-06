@@ -2,7 +2,7 @@ from langchain.chat_models import ChatOpenAI
 import streamlit as st
 import time
 
-chat_model=ChatOpenAI() #질문<->답변
+chat_model=ChatOpenAI()
 
 st.title('클리블랜드 심장질환 진단')
 
