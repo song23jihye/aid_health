@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 # from langchain.llms import OpenAI 
 # llm=OpenAI() #이어 작성
 # result = llm.predict('내가 좋아하는 음식은')
